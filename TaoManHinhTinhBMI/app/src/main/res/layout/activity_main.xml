@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="30dp"
+            android:text="CHƯƠNG TRÌNH TÍNH CHỈ SỐ BMI"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Nhập chiều cao:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/cao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Hight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Nhập cân nặng:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/nang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Weight" />
+
+        <Button
+            android:layout_width="299dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:paddingHorizontal="30dp"
+            android:text="Tính BMI" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="BMI = "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/bmi"
+            android:layout_width="214dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="BMI"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Đánh giá:"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="214dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Đánh giá" />
+    </LinearLayout>
+
+</RelativeLayout>
