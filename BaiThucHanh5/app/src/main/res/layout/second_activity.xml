@@ -20,7 +20,7 @@
             android:layout_marginBottom="150dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
-            android:text="CHIM CÁNH CỤT "
+            android:text="Phan Thị Hoài Anh "
             android:textColor="@color/purple_700"
             android:textSize="35dp"
             android:textStyle="bold" />
@@ -30,7 +30,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Penguin"
+            android:text="Các món ăn"
             android:textColor="@color/black"
             android:textSize="30dp"
             android:textStyle="bold" />
