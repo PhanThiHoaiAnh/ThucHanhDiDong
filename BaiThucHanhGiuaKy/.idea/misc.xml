@@ -21,7 +21,12 @@
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/drawable/ic_person.xml" value="0.107" />
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/activity_start.xml" value="0.18614130434782608" />
+        <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/fragment_item_listchitieu.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/fragment_list.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/fragment_listThu.xml" value="0.1" />
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/layout_home.xml" value="0.1837962962962963" />
+        <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/layout_item.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/layout_listview.xml" value="0.18614130434782608" />
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/layout_log_in.xml" value="0.25" />
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/layout_sign_up.xml" value="0.22" />
         <entry key="..\:/AndroidStudio_Projects/BaiThucHanhGiuaKy/app/src/main/res/layout/layout_start.xml" value="0.25" />
