@@ -8,7 +8,29 @@
     android:background="@drawable/background_home"
     tools:context=".HomePage">
 
-    <ImageView        android:layout_width="245dp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnBack_ofHome"
+            android:layout_width="337dp"
+            android:layout_height="58dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_back" />
+
+        <Button
+            android:id="@+id/btnLogOut_ofHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_baseline_logout_24" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="245dp"
         android:layout_height="142dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
@@ -32,6 +54,7 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/btnPro_ofHome"
             android:layout_width="150dp"
             android:layout_height="170dp"
             android:backgroundTint="#FFFFFF"
@@ -42,6 +65,7 @@
             app:cornerRadius="30dp" />
 
         <Button
+            android:id="@+id/btnSet_ofHome"
             android:layout_width="148dp"
             android:layout_height="170dp"
             android:layout_marginLeft="28dp"
@@ -62,6 +86,7 @@
         android:layout_marginLeft="35dp">
 
         <Button
+            android:id="@+id/btnUse_ofHome"
             android:layout_width="150dp"
             android:layout_height="170dp"
             android:paddingTop="20dp"
@@ -72,6 +97,7 @@
             app:cornerRadius="30dp" />
 
         <Button
+            android:id="@+id/btnMake_ofHome"
             android:layout_width="150dp"
             android:layout_height="170dp"
             android:paddingTop="20dp"

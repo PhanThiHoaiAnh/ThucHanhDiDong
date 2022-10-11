@@ -141,7 +141,7 @@
         <CheckBox
             android:id="@+id/checkBox1"
             android:layout_width="320dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:text="Show"
             android:textColor="#3C2467"
@@ -166,7 +166,7 @@
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="320dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:text="Show"
             android:textColor="#3C2467"

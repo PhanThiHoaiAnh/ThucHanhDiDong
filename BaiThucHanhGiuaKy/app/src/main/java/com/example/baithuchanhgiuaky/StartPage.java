@@ -16,13 +16,13 @@ public class StartPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        btLogin = findViewById(R.id.btnLogin1);
+        btLogin = findViewById(R.id.btnLogin_ofStart);
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { openLogInPage();}
         });
 
-        btSignup = findViewById(R.id.btnSignup1);
+        btSignup = findViewById(R.id.btnSignup_ofStart);
         btSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { openSignUpPage();}

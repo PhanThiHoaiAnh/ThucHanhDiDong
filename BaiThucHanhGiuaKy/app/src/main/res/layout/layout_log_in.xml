@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <Button
-        android:id="@+id/btnBack1"
+        android:id="@+id/btnBack_ofLIn"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="?android:attr/selectableItemBackground"
@@ -79,7 +79,7 @@
         tools:layout_editor_absoluteY="258dp">
 
         <EditText
-            android:id="@+id/edtName"
+            android:id="@+id/edtName_ofLIn"
             android:layout_width="345dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -94,14 +94,13 @@
             android:textSize="21dp" />
 
         <EditText
-            android:id="@+id/edtPass"
+            android:id="@+id/edtPass_ofLIn"
             android:layout_width="345dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/border_signup"
             android:drawableLeft="@drawable/ic_key"
-            android:drawableRight="@drawable/ic__eye"
             android:fontFamily="sans-serif-condensed-medium"
             android:hint="*****************"
             android:inputType="textPassword"
@@ -115,14 +114,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Remember me"
-                android:textColor="@color/black"
-                android:textSize="14dp" />
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:text="Show Password"
+                android:textColor="#3C2467"
+                android:textSize="15dp"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/textV_fgPass"
@@ -134,10 +138,11 @@
                 android:text="Forgot Password?"
                 android:textColor="@color/teal_100"
                 android:textSize="16dp" />
+
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_login1"
+            android:id="@+id/btn_login_ofLIn"
             android:layout_width="345dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
@@ -154,21 +159,21 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="Don't have an account?"
                 android:textColor="@color/black"
                 android:textSize="16dp" />
 
-            <TextView
-                android:id="@+id/textV_signup"
+            <Button
+                android:id="@+id/signup_OfLIn"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:background="?android:attr/selectableItemBackground"
                 android:paddingLeft="20dp"
                 android:text="Sign Up"
-                android:textColor="@color/teal_100"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                android:textColor="@color/teal_700"
+                android:textSize="10dp" />
         </LinearLayout>
 
         <TextView

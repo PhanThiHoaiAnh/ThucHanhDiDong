@@ -13,7 +13,7 @@
         android:layout_marginTop="10dp">
 
         <Button
-            android:id="@+id/btnBack2"
+            android:id="@+id/btnBack_ofPro"
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:background="?android:attr/selectableItemBackground"
@@ -28,13 +28,12 @@
             android:textColor="@color/white"
             android:textSize="30dp" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="89dp"
-            android:layout_height="61dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="1dp"
-            app:srcCompat="@drawable/savemoney" />
+        <Button
+            android:id="@+id/btnLogOut_ofPro"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_baseline_logout_24" />
 
     </LinearLayout>
 
@@ -72,43 +71,45 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginTop="350dp"
+        android:background="#66FFFFFF"
         android:orientation="horizontal">
 
         <Button
             android:layout_width="141dp"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:background="?android:attr/selectableItemBackground"
-            android:drawableTop="@drawable/ic_back" />
+            android:drawableTop="@drawable/status" />
 
         <Button
             android:layout_width="141dp"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:background="?android:attr/selectableItemBackground"
-            android:drawableTop="@drawable/ic_back" />
+            android:drawableTop="@drawable/ic_man" />
 
         <Button
             android:layout_width="141dp"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:background="?android:attr/selectableItemBackground"
-            android:drawableTop="@drawable/ic_back" />
+            android:drawableTop="@drawable/locial" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="416dp"
+        android:background="@drawable/border_signup"
+        android:backgroundTint="#20FFFFFF"
         android:orientation="vertical"
-        android:layout_marginTop="450dp"
-        android:padding="20dp"
-        android:background="@drawable/border_signup">
+        android:padding="20dp">
 
         <TextView
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_fullname"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:text="Phan Thị Hoài Anh"
@@ -119,7 +120,7 @@
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_baseline_calendar_month_24"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:text="03/ 2002"
@@ -141,7 +142,7 @@
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_email"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:text="hoaianh0327@gmail.com"
@@ -152,7 +153,7 @@
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_phone"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:text="038*****263"
@@ -163,7 +164,7 @@
             android:layout_width="385dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_location"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:text="Đà Nẵng"
@@ -174,10 +175,10 @@
             android:layout_width="358dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_baseline_edit_note_24"
             android:drawablePadding="10dp"
             android:paddingTop="10dp"
-            android:text="Khác"
+            android:text="....."
             android:textColor="@color/white"
             android:textSize="15dp" />
 

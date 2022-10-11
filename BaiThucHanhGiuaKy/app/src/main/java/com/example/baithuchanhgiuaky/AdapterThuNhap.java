@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,6 +16,7 @@ public class AdapterThuNhap extends BaseAdapter {
     private Context context;
     private int layout;
     private List<ThuNhap> arrList;
+    private Button btnBack;
 
     public AdapterThuNhap(Context context, int layout, List<ThuNhap> arrList) {
         this.context = context;
@@ -24,7 +26,7 @@ public class AdapterThuNhap extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return arrList.size();
     }
 
     @Override

@@ -44,7 +44,7 @@
         android:textSize="17dp" />
 
     <Button
-        android:id="@+id/btnSignup1"
+        android:id="@+id/btnSignup_ofStart"
         android:layout_width="345dp"
         android:layout_height="60dp"
         android:layout_marginStart="36dp"
@@ -56,7 +56,7 @@
         app:cornerRadius="70dp" />
 
     <Button
-        android:id="@+id/btnLogin1"
+        android:id="@+id/btnLogin_ofStart"
         android:layout_width="345dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"

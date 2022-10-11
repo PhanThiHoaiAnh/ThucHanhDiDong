@@ -8,11 +8,17 @@
     android:background="@drawable/background_home"
     tools:context=".ListThuNhap">
 
+    <Button
+        android:id="@+id/btBackThu"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/ic_back" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
         android:fontFamily="casual"
         android:text="Quản lý Thu Nhập"
         android:textColor="@color/white"
@@ -27,7 +33,7 @@
 
         <Button
             android:id="@+id/btn_Add"
-            android:layout_width="125dp"
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@color/teal_200"
@@ -37,7 +43,7 @@
 
         <Button
             android:id="@+id/btn_Del"
-            android:layout_width="125dp"
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="50dp"
