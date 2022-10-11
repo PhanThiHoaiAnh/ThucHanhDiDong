@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,11 +8,10 @@
     android:background="@drawable/background_home"
     tools:context=".HomePage">
 
-    <ImageView
-        android:layout_width="253dp"
-        android:layout_height="150dp"
+    <ImageView        android:layout_width="245dp"
+        android:layout_height="142dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/savemoney" />
 
     <TextView
@@ -28,19 +28,59 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="25dp">
+        android:layout_margin="35dp"
+        android:gravity="center">
 
         <Button
-            android:layout_width="180dp"
-            android:layout_height="200dp"
-            android:layout_marginRight="20dp"
-            android:text="Profile"
-            android:drawableTop="@drawable/user"
-            android:backgroundTint="@color/white"/>
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_canhan"
+            android:paddingTop="20dp"
+            android:text="Cá Nhân"
+            android:textColor="@color/bg_s_l"
+            app:cornerRadius="30dp" />
 
         <Button
-            android:layout_width="180dp"
-            android:layout_height="200dp"/>
+            android:layout_width="148dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="28dp"
+            android:paddingTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_tuychon"
+            android:text="Tùy Chọn"
+            android:textColor="@color/bg_s_l"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="35dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:paddingTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_chitieu"
+            android:text="Chi Tiêu"
+            android:textColor="@color/bg_s_l"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_thunhap"
+            android:text="Thu nhập"
+            android:textColor="@color/bg_s_l"
+            app:cornerRadius="30dp" />
 
     </LinearLayout>
 

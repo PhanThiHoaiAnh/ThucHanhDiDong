@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnBack2"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="?android:attr/selectableItemBackground"
@@ -68,7 +68,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="630dp"
+        android:layout_height="612dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="0dp"
@@ -97,7 +97,7 @@
             android:layout_width="345dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:drawableLeft="@drawable/ic_email"
             android:fontFamily="sans-serif-condensed-medium"
             android:hint=" E-mail"
@@ -112,10 +112,10 @@
             android:layout_width="345dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:drawableLeft="@drawable/ic_person"
             android:fontFamily="sans-serif-condensed-medium"
-            android:hint=" Usrername (*)"
+            android:hint=" Username (*)"
             android:inputType="textPersonName"
             android:padding="12dp"
             android:textColor="@color/log"
@@ -127,7 +127,7 @@
             android:layout_width="345dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:drawableLeft="@drawable/ic_lock2"
             android:fontFamily="sans-serif-condensed-medium"
             android:hint=" Password (*)"
@@ -140,12 +140,12 @@
 
         <CheckBox
             android:id="@+id/checkBox1"
-            android:layout_width="340dp"
-            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:text="Show"
             android:textColor="#3C2467"
-            android:textSize="15dp"
+            android:textSize="13dp"
             android:textStyle="italic" />
 
         <EditText
@@ -165,12 +165,12 @@
 
         <CheckBox
             android:id="@+id/checkBox2"
-            android:layout_width="340dp"
-            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:text="Show"
             android:textColor="#3C2467"
-            android:textSize="15dp"
+            android:textSize="13dp"
             android:textStyle="italic" />
 
         <Button
@@ -178,35 +178,37 @@
             android:layout_width="345dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="12dp"
             android:backgroundTint="@color/log"
             android:text="sign up" />
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="__________________"
-                android:textSize="12dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Or"
-                android:textSize="15dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="__________________"
                 android:textColor="@color/black"
-                android:textSize="12dp"/>
+                android:textSize="12dp" />
 
         </LinearLayout>
 

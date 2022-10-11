@@ -16,7 +16,7 @@ public class ListThuNhap extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_listview);
+        setContentView(R.layout.layout_listthhunhap);
 
     }
 }
