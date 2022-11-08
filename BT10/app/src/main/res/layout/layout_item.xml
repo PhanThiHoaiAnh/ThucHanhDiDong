@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgHinh"
+        android:layout_width="106dp"
+        android:layout_height="94dp" />
+
+    <LinearLayout
+        android:layout_width="212dp"
+        android:layout_height="96dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_toRightOf="@id/imgHinh"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="10dp"
+            android:text="Họ tên"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_idSV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_toRightOf="@id/imgHinh"
+            android:text="Mã SV"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textLop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lớp"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        android:drawableLeft="@drawable/ic_edit" />
+
+    <CheckBox
+        android:id="@+id/checkbox_id"
+        android:layout_width="37dp"
+        android:layout_height="94dp"
+        android:checked="false" />
+
+</LinearLayout>
